@@ -1,0 +1,336 @@
+body {
+	color: white;
+	font: 30px Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background: url("img/Landing_Page_BG.jpg") #fff no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+}
+.textTitle {
+	font-size: 80px;
+	margin: 0;
+	position: absolute;
+	text-shadow: 1px 0 1px rgba(124,44,41,0.9), 0 1px 1px rgba(57,20,19,0.9), 2px 1px 1px rgba(124,44,41,0.9), 1px 2px 1px rgba(57,20,19,0.9), 3px 2px 1px rgba(124,44,41,0.9), 2px 3px 1px rgba(57,20,19,0.9), 4px 3px 1px rgba(124,44,41,0.9), 3px 4px 1px rgba(57,20,19,0.9), 5px 4px 1px rgba(124,44,41,0.9), 4px 5px 1px rgba(57,20,19,0.9), 6px 5px 1px rgba(124,44,41,0.9), 5px 6px 1px rgba(57,20,19,0.9), 7px 6px 1px rgba(124,44,41,0.9);
+}
+#leftContentWrapper {
+	height: 30%;
+	pointer-events: none;
+	position: relative;
+	top: 33%;
+	width: 100%;
+	z-index: 1;
+}
+.textTitle1 {
+	right: 69%;
+	top: 0;
+}
+.textTitle2 {
+	bottom: 0;
+	right: 49%;
+}
+#rightContentWrapper {
+	position: absolute;
+	right: 5%;
+	top: 14%;
+	width: 50vw;
+}
+
+.linkWrapper {
+	margin: 0;
+	max-width: 330px;
+	padding: 0;
+	position: absolute;
+}
+.linkText-active {
+	box-shadow: 1px 0 1px rgba(124,44,41,0.9), 0 1px 1px rgba(57,20,19,0.9), 2px 1px 1px rgba(124,44,41,0.9), 1px 2px 1px rgba(57,20,19,0.9), 3px 2px 1px rgba(124,44,41,0.9), 2px 3px 1px rgba(57,20,19,0.9), 4px 3px 1px rgba(124,44,41,0.9), 3px 4px 1px rgba(57,20,19,0.9), 5px 4px 1px rgba(124,44,41,0.9), 4px 5px 1px rgba(57,20,19,0.9), 6px 5px 1px rgba(124,44,41,0.9), 5px 6px 1px rgba(57,20,19,0.9), 7px 6px 1px rgba(124,44,41,0.9);
+	opacity: 1!important;
+	text-shadow: 1px 0 1px rgba(124,44,41,0.9), 0 1px 1px rgba(57,20,19,0.9), 2px 1px 1px rgba(124,44,41,0.9), 1px 2px 1px rgba(57,20,19,0.9), 3px 2px 1px rgba(124,44,41,0.9), 2px 3px 1px rgba(57,20,19,0.9), 4px 3px 1px rgba(124,44,41,0.9), 3px 4px 1px rgba(57,20,19,0.9), 5px 4px 1px rgba(124,44,41,0.9), 4px 5px 1px rgba(57,20,19,0.9), 6px 5px 1px rgba(124,44,41,0.9), 5px 6px 1px rgba(57,20,19,0.9), 7px 6px 1px rgba(124,44,41,0.9);
+	transform: scale(1.03) translate(-8px,-8px);
+	transition: all 1s ease;
+}
+.linkText {
+	border: solid 2px #a5d9f3;
+	color: #a5d9f3;
+	display: inline-block;
+	font-weight: 600;
+	margin: 0;
+	opacity: 0;
+	padding: 10px 0 5px 15px;
+	text-decoration: none;
+	width: 165px;
+}
+.logoLeft:hover {
+	transform: scale(1.05) translate(-5px,-6px);
+}
+#blog {
+	right: 93%;
+	top: -4%;
+}
+#ap {
+	right: 8%;
+	top: -6%;
+}
+#ab {
+	right: 51%;
+	top: 84%;
+}
+#lineBl {
+	height: 30px;
+	width: 350px;
+}
+#lineAp {
+	height: 46px;
+	padding-top: 3px;
+	width: 325px;
+}
+#lineAb {
+	height: 46px;
+	margin-top: -25px;
+	width: 325px;
+}
+.logoLeft:hover {
+	transform: scale(1.05) translate(-5px,-6px);
+}
+.logoRight:hover {
+	transform: scale(1.05) translate(-11px,-5px);
+}
+.logoBottom:hover {
+	transform: scale(1.1) translate(-16px,-20px);
+}
+.logoBottom:hover~.logoBottom1 {
+	transform: scale(1.1) translate(-16px,-20px);
+}
+.line0_active {
+	opacity: 1!important;
+}
+.line1_active {
+	stroke-dashoffset: 0!important;
+	transition: all .5s ease .3s;
+}
+.line2_active {
+	stroke-dashoffset: 0!important;
+	transition: all 1s ease .3s;
+}
+.logoWing {
+	transition: all .4s ease-in-out .2s;
+}
+.line {
+	transition: all .4s ease .3s;
+}
+.linkText {
+	transition: all .4s ease .3s;
+}
+.lineBl_0 {
+	opacity: 0;
+	stroke-dasharray: 8, 10;
+	stroke-dashoffset: 9px;
+}
+.lineBl_1 {
+	stroke-dasharray: 17, 19;
+	stroke-dashoffset: 18px;
+}
+.lineBl_2 {
+	stroke-dasharray: 385, 387;
+	stroke-dashoffset: 386px;
+}
+.lineAp_0 {
+	opacity: 0;
+	stroke-dasharray: 8, 10;
+	stroke-dashoffset: 9px;
+}
+.lineAp_1 {
+	stroke-dasharray: 17, 19;
+	stroke-dashoffset: 18px;
+}
+.lineAp_2 {
+	stroke-dasharray: 363, 365;
+	stroke-dashoffset: 364px;
+}
+.lineAb_0 {
+	opacity: 0;
+	stroke-dasharray: 8, 10;
+	stroke-dashoffset: 9px;
+}
+.lineAb_1 {
+	stroke-dasharray: 17, 19;
+	stroke-dashoffset: 18px;
+}
+.lineAb_2 {
+	stroke-dasharray: 421, 423;
+	stroke-dashoffset: 422px;
+}
+@media screen and (max-width: 1600px) {
+	#ap {
+		right: 9%;
+		top: -8%;
+	}
+}
+@media screen and (max-width: 1080px) {
+	#rightContentWrapper {
+		right: 0;
+	}
+	.textTitle {
+		font-size: 74px;
+	}
+	#ap {
+		top: -13%;
+	}
+}
+@media screen and (max-width: 1030px) {
+	#rightContentWrapper {
+		top: 40%;
+		right: calc(50% - 25vw);
+	}
+
+	#leftContentWrapper {
+		height: 20%;
+		top: 10%;
+	}
+
+	.textTitle1 {
+		right: 60%;
+	}
+
+	.textTitle2 {
+		right: 15%;
+	}
+
+	#blog {
+		right: 60%;
+		top: 28%;
+	}
+
+	#ap {
+		right: 9%;
+		top: -18%;
+	}
+
+	#ab {
+		right: 52%;
+		top: 74%;
+	}
+
+	@media screen and (max-height: 720px) and (min-width: 740px) {
+		#leftContentWrapper {
+			height: 14%;
+			top: 2%;
+		}
+
+		#rightContentWrapper {
+			top: 34%;
+		}
+
+		.textTitle {
+			font-size: 60px;
+		}
+
+		.textTitle2 {
+			right: 17%;
+		}
+
+	}
+}
+
+@media screen and (max-height: 820px) and (min-width: 1340px) {
+
+    #rightContentWrapper {
+        top: 6%;
+        transform: scale(.9);
+    }
+}
+
+@media screen and (max-width: 740px) {
+	#rightContentWrapper {
+		top: 42%;
+	}
+	#leftContentWrapper {
+		height: 22%;
+		top: 10%;
+	}
+	.textTitle {
+		font-size: 60px;
+	}
+	.linkWrapper {
+		transform: scale(.8);
+	}
+	
+	#blog {
+		right: 46%;
+	}
+	#ap {
+		top:-22%;
+		right: 1%;
+	}
+	#ab {
+		right: 41%;
+	}
+}
+@media screen and (max-width: 600px) {
+	#leftContentWrapper {
+		top: 8%;
+	}
+	.linkWrapper {
+		transform: scale(.6);
+	}
+
+	.textTitle {
+		font-size: 60px;
+	}
+	.textTitle1 {
+		right: 50%;
+	}
+	#blog {
+		right: 40%;
+		top: 12%;
+	}
+	#ap {
+		right: -19%;
+		top: -30%;
+	}
+	#ab {
+		right:28%;
+		top: 62%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#leftContentWrapper {
+		height: 20%;
+		top: 8%;
+	}
+	.textTitle {
+		font-size: 44px;
+	}
+	.textTitle1 {
+		right: 45%;
+	}
+	.textTitle2 {
+		right: 12%;
+	}
+	#blog {
+		right: 23%;
+	}
+	#ap {
+		right:-27%;
+		top: -31%;
+	}
+	#ab {
+		right: 13%;
+	}
+}
+@media screen and (max-width: 370px) {
+	#blog {
+		right: 2%;
+		top: 3%;
+	}
+	#ap {
+		right: -49%;
+		top: -39%;
+	}
+	#ab {
+		right: -6%;
+		top: 48%;
+	}
+}
