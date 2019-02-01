@@ -52,7 +52,7 @@
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             overlay[i].ontouchstart = over;
         }
-        overlay[i].onmouseover = over;
+        overlay[i].ontouchstart = over;
 
         overlay[i].onmouseleave = function leave() {
             logoTrans[i].classList.remove("overlay"+i);
