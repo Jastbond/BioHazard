@@ -62,6 +62,8 @@
             clearTimeout(timerOn);
         }
         overlay[i].onmouseleave = leave;
+        overlay[i].ontouchend = leave;
+
     }
 
  /*   function leaveFunction(){
