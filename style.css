@@ -62,9 +62,7 @@ body {
 	text-decoration: none;
 	width: 165px;
 }
-.logoLeft:hover {
-	transform: scale(1.05) translate(-5px,-6px);
-}
+
 #blog {
 	right: 93%;
 	top: -4%;
@@ -91,18 +89,31 @@ body {
 	margin-top: -25px;
 	width: 325px;
 }
-.logoLeft:hover {
+
+.overlay {
+/*	z-index: 1;
+	fill: white;*/
+	opacity: 0;
+}
+
+.underLay {
+	display: none;
+}
+
+
+.overlay0{
 	transform: scale(1.05) translate(-5px,-6px);
 }
-.logoRight:hover {
+.overlay1 {
 	transform: scale(1.05) translate(-11px,-5px);
 }
-.logoBottom:hover {
+.overlay2{
 	transform: scale(1.1) translate(-16px,-20px);
 }
-.logoBottom:hover~.logoBottom1 {
+.overlayBottom1 {
 	transform: scale(1.1) translate(-16px,-20px);
 }
+
 .line0_active {
 	opacity: 1!important;
 }
@@ -114,7 +125,7 @@ body {
 	stroke-dashoffset: 0!important;
 	transition: all 1s ease .3s;
 }
-.logoWing {
+.logoTrans {
 	transition: all .4s ease-in-out .2s;
 }
 .line {
