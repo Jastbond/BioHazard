@@ -18,6 +18,7 @@
 
             function over() {
                 logoTrans[i].classList.add("overlay"+i);
+
                 if (logoWings[i].classList.contains("logoLeft")) {
                     target = startDot0;
                 } else if (logoWings[i].classList.contains("logoRight")) {

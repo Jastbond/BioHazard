@@ -92,15 +92,20 @@ body {
 
 .overlay {
 	opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .overlay0{
+    filter:url(#shadow);
 	transform: scale(1.05) translate(-5px,-6px);
 }
 .overlay1 {
+    filter:url(#shadow);
 	transform: scale(1.05) translate(-11px,-5px);
 }
 .overlay2{
+    filter:url(#shadow);
 	transform: scale(1.1) translate(-16px,-20px);
 }
 
