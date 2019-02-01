@@ -22,6 +22,7 @@ body {
 	position: relative;
 	top: 33%;
 	width: 100%;
+    z-index: -1;
 }
 .textTitle1 {
 	right: 69%;
@@ -36,6 +37,7 @@ body {
 	right: 5%;
 	top: 14%;
 	width: 50vw;
+    z-index: 1;
 }
 
 .linkWrapper {
@@ -63,6 +65,7 @@ body {
 	text-decoration: none;
 	width: 165px;
 }
+
 
 #blog {
 	right: 93%;

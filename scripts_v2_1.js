@@ -18,7 +18,6 @@
 
             function over() {
                 logoTrans[i].classList.add("overlay"+i);
-
                 if (logoWings[i].classList.contains("logoLeft")) {
                     target = startDot0;
                 } else if (logoWings[i].classList.contains("logoRight")) {
@@ -49,10 +48,9 @@
                 }, 300);
                 clearTimeout(timerOff);
             }
-        overlay[i].active = over;
         overlay[i].onmouseover = over;
 
-        overlay[i].onmouseleave = function leave() {
+        function leave() {
             logoTrans[i].classList.remove("overlay"+i);
             timerOff = setTimeout(function(){
                 target.parentElement.previousElementSibling.classList.remove("linkText-active");
@@ -62,7 +60,8 @@
                 target.lastElementChild.classList.remove("line2_active");
             }, 2000);
             clearTimeout(timerOn);
-        };
+        }
+        overlay[i].onmouseleave = leave;
     }
 
  /*   function leaveFunction(){
