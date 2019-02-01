@@ -91,15 +91,8 @@ body {
 }
 
 .overlay {
-/*	z-index: 1;
-	fill: white;*/
 	opacity: 0;
 }
-
-.underLay {
-	display: none;
-}
-
 
 .overlay0{
 	transform: scale(1.05) translate(-5px,-6px);
@@ -108,9 +101,6 @@ body {
 	transform: scale(1.05) translate(-11px,-5px);
 }
 .overlay2{
-	transform: scale(1.1) translate(-16px,-20px);
-}
-.overlayBottom1 {
 	transform: scale(1.1) translate(-16px,-20px);
 }
 
